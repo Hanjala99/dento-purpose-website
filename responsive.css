@@ -1,0 +1,1363 @@
+@media (max-width: 1350px) and (min-width: 1268px){
+	.right-sec{
+		width: 40%;
+		padding-left: 300px;
+	}
+}
+@media (max-width: 1350px) and (min-width: 1170px){
+	.left-sec{
+		width: 60%;
+	}
+	.right-sec{
+		width: 40%;
+		padding-left: 200px;
+	}
+	.middle-nav-list{
+		width: 70%;
+	}
+	.middle-nav-list ul li{
+		padding-right: 22px;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 0px;
+	}
+	.pages .img3 {
+  		  left: 470px;
+	}
+	.about-section{
+		width: 90%;
+		height: 650px;
+	}
+	.inner-testimonial-section{
+		width: 85%;
+	}
+	.testimonial-left{
+		width: 22%;
+	}
+	.testimonial-right{
+		width: 78%;
+	}
+	.dentist-section {
+		height: 540px;
+	}
+	.inner-footer-section{
+		width: 88%;
+	}
+}
+@media (max-width: 1170px) and (min-width: 1090px){
+	.left-sec{
+		width: 70%;
+	}
+	.right-sec{
+		width: 30%;
+		padding-left: 100px;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+		padding-left: 15px;
+	}
+	.welcome-middle-content{
+		width: 1000px;
+	}
+	.middle-nav-list{
+		width: 75%;
+		padding-left: 70px;
+	}
+	.middle-nav-list ul li{
+		padding-right: 15px;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 0px;
+	}
+	.about-section{
+		width: 85%;
+		height: 550px;
+	}
+	.section-heading{
+		margin-top: 30px
+	}
+	.section-heading h2 {
+   		 font-size: 34px;
+   	}
+   	.right-about-text p {
+		margin-top: 30px;
+		line-height: 1.7;
+	}
+	.skills-box{
+		margin-bottom: 35px;
+	}
+	.inner-testimonial-section{
+		width: 85%;
+	}
+	.testimonial-left{
+		width: 24%;
+	}
+	.testimonial-right{
+		width: 76%;
+	}
+	.dentist-section {
+		height: 510px;
+	}
+	.inner-footer-section{
+		width: 94%;
+	}
+	
+}
+@media (max-width: 1090px) and (min-width: 1010px){
+	.top-header-area, .main-header-area{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.left-sec{
+		width: 70%;
+	}
+	.right-sec{
+		width: 30%;
+		padding-left: 120px;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+	}
+	.middle-nav-list{
+		width: 75%;
+		padding-left: 70px;	
+	}
+	.middle-nav-list ul li{
+		padding-right: 12px;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 0px;
+	}
+	.right-nav-btn button {
+    	width: 118px;
+	}
+	.welcome-area{
+		height: 600px;
+	}
+	.welcome-middle-content{
+		width: 900px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 40px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 16px;
+	}
+	.about-section{
+		width: 90%;
+		height: 500px;
+	}
+	.section-heading{
+		margin-top: 25px
+	}
+	.section-heading h2 {
+   		 font-size: 32px;
+   	}
+   	.right-about-text p {
+		margin-top: 25px;
+		line-height: 1.6;
+	}
+	.skills-box{
+		margin-bottom: 32px;
+	}
+	.dento-cta-area{
+		width: 95%;
+	}
+	.inner-testimonial-section{
+		width: 90%;
+	}
+	.testimonial-left{
+		width: 25%;
+	}
+	.testimonial-right{
+		width: 75%;
+	}
+	.dentist-section {
+		height: 480px;
+	}
+	.footer-section{
+		height: 741px;
+	}
+	.inner-footer-section{
+		width: 80%;
+	}
+	.left-footer{
+		width: 60%;
+	}
+	.middle-footer{
+		width: 35%;
+		margin-bottom: 40px;
+	}
+	.quick-link{
+		width: 50%;
+	}
+	.right-footer{
+		width: 40%;
+	}
+	
+}
+@media (max-width: 1009px) and (min-width: 905px){
+	.left-sec{
+		width: 80%;
+	}
+	.right-sec{
+		width: 20%;
+		padding-left: 20px;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+	}
+	.middle-nav-list{
+		/*display: none;*/
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 230px;
+	}
+	.welcome-area{
+		height: 600px;
+	}
+	.welcome-middle-content{
+		width: 800px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 40px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 16px;
+	}
+	.about-section{
+		width: 80%;
+		height: 500px;
+	}
+	.section-heading{
+		margin-top: 20px
+	}
+	.section-heading h2 {
+   		 font-size: 30px;
+   	}
+   	.left-about-pic img{
+   		height: 70%;
+   	}
+   	.right-about-text p {
+		margin-top: 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+	}
+	.skills-box{
+		margin-bottom: 28px;
+	}
+	.dento-cta-area{
+		width: 95%;
+	}
+	.dentist-heading h2{
+		font-size: 32px;
+	}
+	.inner-testimonial-section{
+		width: 85%;
+		padding-bottom: 273px;
+	}
+	.testimonial-left{
+		width: 30%;
+		padding-top: 25px;
+	}
+	.testimonial-right{
+		width: 70%;
+		padding-top: 0px;
+	}
+	.dentist-section {
+		height: 450px;
+	}
+	.footer-section{
+		height: 741px;
+	}
+	.inner-footer-section{
+		width: 80%;
+	}
+	.left-footer{
+		width: 50%;
+	}
+	.middle-footer{
+		width: 35%;
+		margin-bottom: 40px;
+	}
+	.quick-link{
+		width: 40%;
+	}
+	.right-footer{
+		width: 40%;
+	}
+}
+@media (max-width: 904px) and (min-width: 780px){
+	.top-header-area, .main-header-area{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.left-sec{
+		width: 80%;
+	}
+	.right-sec{
+		width: 20%;
+		padding-left: 20px;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 230px;
+	}
+	.welcome-area{
+		height: 550px;
+	}
+	.welcome-middle-content{
+		width: 700px;
+		padding-top: 50px;
+	}
+	.welcome-middle-content-text, .welcome-middle-content-paragraph{
+		height: 130px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 36px;
+		line-height: 55px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 14px;
+	}
+	.about-section{
+		width: 80%;
+		height: 500px;
+	}
+	.section-heading{
+		margin-top: 20px
+	}
+	.section-heading h2 {
+   		 font-size: 30px;
+   	}
+   	.left-about-pic img{
+   		height: 70%;
+   	}
+   	.right-about-text p {
+		margin-top: 20px;
+		font-size: 15px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+	}
+	.skills-box{
+		margin-bottom: 28px;
+	}
+	.dento-cta-area{
+		width: 90%;
+		height: 400px;
+	}
+	.cta-area{
+			width: calc(50% - 40px);
+	}
+	.cta-area img{
+		width: 40px;
+	}
+	.cta-area h2{
+		font-size: 34px;
+	}
+	.cta-area h3{
+		font-size: 17px;
+	}
+	.dentist-heading h2{
+		font-size: 28px;
+	}
+	.dentist-section {
+		height: 400px;
+	}
+	.footer-section{
+		height: 741px;
+	}
+	.inner-footer-section{
+		width: 80%;
+	}
+	.left-footer{
+		width: 50%;
+	}
+	.middle-footer{
+		width: 35%;
+		margin-bottom: 40px;
+	}
+	.quick-link{
+		width: 40%;
+	}
+	.right-footer{
+		width: 40%;
+	}
+}
+@media (max-width: 999px) and (min-width: 760px){
+	.dento-service-sec{
+		height: 1000px;
+	}
+	.inner-dento-service-sec {
+   		 padding-top: 62px;
+  		  width: 75%;
+   	}
+	.left-dento-service, .right-dento-service{
+		width: 100%;
+		height: 50%;
+		padding-top:0px;
+		padding-bottom: 0px;
+	}
+	.service-icon-sec {
+    	height: -webkit-fill-available;
+	}
+	.service-icon{
+		height: 39%;
+	}
+	.inner-apointment-section{
+ 		padding-top: 70px;
+ 		padding-bottom: 70px;
+	 }
+	 .apointment-heading {
+    	height: 90px;
+	}
+	.apointment-heading h2{
+		font-size: 30px;
+	}
+	.dentist-section{
+		width: 90%;
+	}
+	.dentist-heading{
+		height: 90px;
+	}
+	.dentist-heading h2{
+		font-size: 28px;
+	}
+	.inner-testimonial-section{
+		width: 85%;
+		padding-bottom: 300px;
+	}
+	.testimonial-left{
+		width: 30%;
+		padding-top: 25px;
+	}
+	.testimonial-right{
+		width: 70%;
+		padding-top: 0px;
+	}
+
+}
+@media (max-width: 779px) and (min-width: 751px){
+	.dentist-section{
+		height: 360px;
+	}
+}
+@media (max-width: 759px) and (min-width: 751px){
+	.dentist-section{
+		height: 800px;
+	}
+}
+@media (max-width: 759px) and (min-width: 600px){
+	.dento-service-sec{
+		height: 800px;
+	}
+	.inner-dento-service-sec {
+   		 padding-top: 50px;
+  		  width: 75%;
+   	}
+	.left-dento-service, .right-dento-service{
+		width: 100%;
+		height: 50%;
+		padding-top:0px;
+		padding-bottom: 0px;
+	}
+	.left-dento-service{
+		height: 65%;
+	}
+	.right-dento-service{
+		height: 35%;
+	}
+	.right-dento-service img{
+		height: 90%;
+	}
+	.service-heading {
+ 	   height: 20%;
+	}
+	.service-heading h2 {
+    	font-size: 30px;
+	}
+	.service-icon-sec {
+    	height: -webkit-fill-available;
+	}
+	.service-icon{
+		width: 50%;
+		height: 25%;
+	}
+	.dentist-pic{
+		width: calc(50% - 20px);
+		margin-bottom: 20px;
+	}
+	.inner-footer-section{
+		width: 90%;
+	}
+	.right-newsletter-form button {
+    	width: 10%;
+	}
+}
+@media (max-width: 779px) and (min-width: 500px){
+	.top-header-area, .main-header-area{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.sec-header{
+		height: 130px;
+	}
+	.main-header-area{
+		height: 80px;
+	}
+	.left-nav-logo-area img{
+		padding-top: 6px;
+		width: 90px;
+	}
+	.right-nav-btn button{
+		height: 38px;
+		width: 150px;
+	}
+	.left-sec{
+		width: 30%;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 140px;
+	}
+	.left-sec span{
+		display: none;
+	}
+	.img1{
+		left:30px;
+	}
+	.img2{
+		left: 70px;
+	}
+	.right-sec{
+		width: 70%;
+		padding-left: 330px;
+	}
+	.welcome-area{
+		height: 500px;
+	}
+	.welcome-middle-content{
+		width: 550px;
+		padding-top: 80px;
+	}
+	.welcome-middle-content-text, .welcome-middle-content-paragraph{
+		height: 100px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.welcome-middle-content-btn button{
+		margin-top: 10px;
+	}
+	.responsive-navbar img {
+	    position: absolute;
+	    width: 35px;
+	    height: 53px;
+	    top: 73px;
+	    right: 80px;
+	    display: none;
+	}
+	.about-section{
+		width: 75%;
+		height: 1100px;
+	}
+	.left-about-pic img{
+		width: 96%;
+		height: 100%;
+	}
+	.left-about-pic{
+		padding-left: 33px;
+	}
+	.left-about-pic, .right-about-text{
+		width: 100%;
+		height: 50%;
+	}
+	.section-heading{
+		margin-top: 20px;
+	}
+	.section-heading h2 {
+    	font-size: 30px;
+	}
+	.dento-cta-area{
+		width: 95%;
+		height: 372px;
+	}
+	.cta-area{
+			width:calc(50% - 40px);
+	}
+	.cta-area img{
+		width: 40px;
+	}
+	.cta-area h2{
+		font-size: 34px;
+	}
+	.cta-area h3{
+		font-size: 17px;
+	}
+	.section-pricing{
+		width: 93%;
+		height: 759px;
+	}
+	.pricing-heading h2 {
+  		 font-size: 26px;
+	}
+	.pricing-heading {
+   		 height: 105px;
+	}
+	.table thead tr > th, .table tbody tr > th, .table tbody tr > td {
+	    background-color: #00aeef;
+	    color: #ffff;
+	    font-family: "Montserrat", sans-serif;
+	    line-height: 1.4;
+	    font-weight: 600;  
+	    padding: 10px 20px;
+	    border-radius: 3px;
+	    border: 2px solid #ffffff;
+	}
+	.table tbody tr > th, .table tbody tr > td {
+    	background-color: #f4f4f4;
+  	 	 color: #707070;
+   	 	font-size: 12px;
+	}
+ 	.inner-apointment-section{
+ 		width: 70%;
+ 		padding-top: 70px;
+ 		padding-bottom: 70px;
+	 }
+	 .apointment-heading {
+    	height: 90px;
+	}
+	.apointment-heading h2{
+		font-size: 30px;
+	}
+	input, select{
+		width: 96%;
+	}
+	.dentist-section{
+		width: 90%;
+	}
+	.dentist-heading{
+		height: 90px;
+	}
+	.dentist-heading h2{
+		font-size: 26px;
+	}
+	.inner-testimonial-section{
+		width: 70%;
+		padding-bottom: 520px;
+	}
+	.testimonial-left{
+		width: 100%;
+	}
+	.testimonial-right{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.footer-section{
+		height: 741px;
+	}
+	.inner-footer-section{
+		width: 85%;
+		top: 50px;
+	}
+	.left-footer{
+		width: 50%;
+	}
+	.middle-footer{
+		width: 35%;
+		margin-bottom: 40px;
+	}
+	.quick-link{
+		width: 40%;
+	}
+	.right-footer{
+		width: 40%;
+	}
+}
+@media (max-width: 750px) and (min-width: 710px){
+	.right-sec{
+		width: 70%;
+		padding-left: 310px;
+	}
+	.about-section{
+		width: 80%;
+	}
+	.dentist-section{
+		height: 800px;
+	}
+}
+@media (max-width: 709px) and (min-width: 630px){
+	.right-sec{
+		width: 70%;
+		padding-left:260px;
+	}
+	.responsive-navbar img {
+	    position: absolute;
+	    width: 35px;
+	    height: 53px;
+	    top: 73px;
+	    right: 50px;
+	    display: none;
+	}
+	.about-section{
+		width: 95%;
+	}
+	.dento-cta-area{
+		width: 80%;
+		height: 450px;
+	}
+	.testimonial-left,.testimonial-right{
+		width: 100%;
+	}
+	.dentist-section{
+		height: 760px;
+	}
+}
+@media (max-width: 629px) and (min-width: 600px){
+	.right-sec{
+		width: 70%;
+		padding-left:220px;
+	}
+	.responsive-navbar img {
+	    position: absolute;
+	    width: 35px;
+	    height: 53px;
+	    top: 73px;
+	    right: 40px;
+	    display: none;
+	}
+	.about-section{
+		width: 95%;
+	}
+	.right-about-text{
+		padding-left: 10px;
+	}
+	.section-heading h2 {
+    	font-size: 22px;
+	} 
+	.left-about-pic{
+		padding-left:5px;
+	}
+	.dento-cta-area{
+		width: 80%;
+		height: 410px;
+	}
+	.dentist-section{
+		height: 680px;
+	}
+}
+@media (max-width: 600px) and (min-width: 500px){
+	.top-header-area, .main-header-area{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.left-sec, .right-sec{
+		padding-left: 0px;
+	}
+	.right-sec{
+		width: 70%;
+		padding-left: 200px;
+	}
+	.responsive-navbar img {
+	    position: absolute;
+	    width: 35px;
+	    height: 53px;
+	    top: 73px;
+	    right: 35px;
+	    display: none;
+	}
+	.welcome-area{
+		height: 400px;
+	}
+	.welcome-middle-content{
+		width: 480px;
+		padding-top: 80px;
+	}
+	.welcome-middle-content-text, .welcome-middle-content-paragraph{
+		height: 100px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.welcome-middle-content-btn button{
+		margin-top: 10px;
+	}
+	.welcome-middle-content-btn button{
+		width: 140px;
+		height: 40px;
+	}
+	.about-section{
+		width: 95%;
+	}
+	.right-about-text{
+		padding-left: 10px;
+	}
+	.section-heading h2 {
+    	font-size: 22px;
+	} 
+	.left-about-pic{
+		padding-left:5px;
+	}
+	.left-about-pic img{
+		width: 100%;
+		height: 90%;
+	}
+	.dento-cta-area{
+		width: 100%;
+		height: 900px;
+		margin-top: 50px;
+	}
+	.cta-area{
+		width:100%;
+		margin: 0px;
+		margin-bottom: 110px;	
+	}
+	.pricing-footer button{
+		width: 140px;
+		font-size: 13px;
+		height: 40px;
+	}
+	.inner-apointment-section{
+ 		width: 92%;
+ 	}
+ 	.apointment-heading h2{
+		font-size: 26px;
+	}
+	.dentist-pic{
+		width: 100%;
+		margin: 0 0 40px 0;
+	}
+	.inner-testimonial-section{
+		width: 75%;
+		padding-bottom: 540px;
+	}
+	.inner-footer-section{
+		width: 95%;
+		top: 40px;
+	}
+	.right-newsletter-form input {
+    	width: 77%;
+	}
+	.right-newsletter-form button {
+    	width: 10%;
+	}
+}
+@media (max-width: 600px) and (min-width: 580px){
+	.dentist-section{
+		height: 1858px;
+	}
+}
+@media (max-width: 579px) and (min-width: 560px){
+	.dentist-section{
+		height: 1825px;
+	}
+}
+@media (max-width: 559px) and (min-width: 540px){
+	.dentist-section{
+		height: 1770px;
+	}
+}
+@media (max-width: 539px) and (min-width: 520px){
+	.dentist-section{
+		height: 1700px;
+	}
+}
+@media (max-width: 519px) and (min-width: 500px){
+	.dentist-section{
+		height: 1630px;
+	}
+}
+@media (max-width: 1009px) and (min-width: 230px){
+	.responsive-navbar img{
+		display: block;
+	}
+	.middle-nav-list{
+		display: none;
+		position: absolute;
+		width: 35%;
+		height: 600px;
+		background: #fff;
+		right: 0;
+		top: 130px;
+	}
+	.middle-nav-list ul li{
+		display: block;
+		margin-bottom: 25px;
+		width: 100%;
+		text-align: center;
+	}
+}
+@media (max-width: 600px) and (min-width: 500px){
+	.dento-service-sec{
+		height: 800px;
+	}
+	.inner-dento-service-sec {
+   		 padding-top: 50px;
+  		  width: 90%;
+  		  padding-bottom: 55px;
+   	}
+	.left-dento-service, .right-dento-service{
+		width: 100%;
+		height: 50%;
+		padding-top:0px;
+		padding-bottom: 0px;
+	}
+	.left-dento-service{
+		height: 65%;
+	}
+	.right-dento-service{
+		height: 35%;
+	}
+	.right-dento-service img{
+		height: 90%;
+	}
+	.service-heading {
+ 	   height: 20%;
+	}
+	.service-heading h2 {
+    	font-size: 26px;
+	}
+	.service-icon-sec {
+    	height: -webkit-fill-available;
+	}
+	.service-icon{
+		width: 50%;
+		height: 25%;
+	}
+}
+@media (max-width: 560px) and (min-width: 490px){
+	.footer-section{
+		height: 1220px;
+	}
+	.inner-footer-section{
+		width: 100%;
+		top: 20px;
+		left:0;
+		transform: none;
+	}
+	.left-footer{
+		width: 100%;
+		margin:0px;
+		padding: 20px;
+		margin-bottom: 60px;
+	}
+	.middle-footer{
+		width: 100%;
+		margin:0px;
+		margin-bottom: 60px;
+	}
+	.quick-link{
+		width: 100%;
+	}
+	.right-footer{
+		width: 100%;
+		padding: 20px;
+		margin:0px;
+		margin-bottom: 50px;
+	}
+	.middle-nav-list{
+		top: 110px;
+	}
+}
+@media (max-width: 499px) and (min-width: 320px){
+	.top-header-area, .main-header-area{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.sec-header{
+		height: 110px;
+	}
+	.top-header-area{
+		height: 40px;
+	}
+	.main-header-area{
+		height: 70px;
+	}
+	.left-nav-logo-area img{
+		padding-top: 6px;
+		width: 90px;
+	}
+	.left-nav-logo-area, .middle-nav-list, .right-nav-btn {
+  	  padding-top: 21px;
+  	  padding-left: 12px;
+	}
+	.right-nav-btn button{
+		height: 37px;
+    	width: 132px;
+	}
+	.left-sec{
+		width: 30%;
+	}
+	.left-nav-logo-area{
+		width: 15%;
+	}
+	.right-nav-btn{
+		width: 10%;
+		padding-left: 110px;
+	}
+	.left-sec span{
+		display: none;
+	}
+	.left-sec img{
+		width: 12px
+	}
+	.img1{
+		left:12px;
+	}
+	.img2{
+		left: 40px;
+	}
+	.right-sec{
+		width: 70%;
+		padding-left: 0px;
+		text-align: right;
+	}
+	.right-sec img{
+		width: 12px;
+	} 
+	.responsive-navbar img {
+    width: 38px;
+    height: 41px;
+    top: 64px;
+    right: 24px;
+	}
+	.welcome-area{
+		height: 500px;
+	}
+	.welcome-middle-content {
+    	width: 444px;
+    	padding-top: 80px;
+	}
+	.welcome-middle-content-text, .welcome-middle-content-paragraph{
+		height: 84px;
+	}
+	.welcome-middle-content-text h2{
+		font-size: 23px;
+		line-height: 32px;
+	}
+	.welcome-middle-content-paragraph {
+   	 	height: 84px;
+	}
+	.welcome-middle-content-paragraph p{
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.welcome-middle-content-btn button{
+		margin-top: 35px;
+		width: 141px;
+    	height: 45px;
+	}
+	.about-section {
+   	 	width: 91%;
+   		 height: 608px;
+	}
+	.left-about-pic, .right-about-text {
+   		width: 100%;
+    	height: 80%;
+	}
+	.right-about-text{
+		height: 86%;
+		padding-left: 0px;
+	}
+	.section-heading {
+    	margin-top: 42px;
+	}
+	.section-heading h2, .service-heading h2, .pricing-heading h2, .apointment-heading h2, .dentist-heading h2{
+   		 font-size: 23px;
+   		 margin-bottom: 12px;
+	}
+	.right-about-text p {
+   		 margin-top: 26px;
+   	}
+   	.skills-box {
+    	margin-bottom: 22px;
+	}
+	.skills-box h2 {
+    	font-size: 14px;
+   	}
+   	.skills-box h4 {
+    	font-size: 15px;
+	}
+	.dento-cta-area{
+		width: 100%;
+		height: 1300px;
+		margin-top: 50px;
+	}
+	.cta-area{
+		width:100%;
+		margin: 0px;
+		margin-bottom: 70px;	
+	}
+	.dento-service-sec {
+    	height: 800px;
+	}
+	.inner-dento-service-sec {
+  	  padding-top: 50px;
+  	  width: 90%;
+  	  padding-bottom: 55px;
+	}
+	.left-dento-service {
+    	height: 75%;
+	}
+	.right-dento-service{
+		height: 25%;
+	}
+	.right-dento-service img{
+		height: 90%;
+	}
+	.service-heading {
+  	  height: 25%;
+	}
+	.service-heading h2 {
+    	font-size: 26px;
+	}
+	.service-icon-sec {
+    	height: 114%;
+	}
+	.service-icon{
+		width: 50%;
+	}
+	.inner-dento-service-sec {
+    	padding-top: 0px; 
+   		 width: 93%;
+   		 height: 100%;
+    	padding-bottom: 0px;
+    }
+    .left-dento-service, .right-dento-service {
+   		 width: 100%;
+    	height: 50%;
+    	padding-top: 80px; 
+     	padding-bottom: 0px; 
+     }
+     .right-dento-service {
+     	padding-top: 130px;
+     }
+     .section-pricing {
+    	width: 95%;
+    	height: 870px;
+	}
+	.pricing-heading{
+		height: 106px;
+	}
+	.table thead tr > th, .table tbody tr > th, .table tbody tr > td {
+  		  padding: 6px 15px;
+   		 border-radius: 3px;
+   	 	border: 2px solid #ffffff;
+	}
+	.pricing-footer{
+		padding-top: 38px;
+	}
+	.pricing-footer button, .apointment-footer button {
+		  width: 146px;
+  		  height: 43px;
+	}
+	.inner-apointment-section {
+    	width: 95%;
+   		 padding-top: 86px;
+   		 padding-bottom: 86px;
+	}
+	.apointment-heading{
+		height: 86px;
+	}
+	.apointment-form-section form input, .apointment-form-section form select{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 25px;
+	}
+	.apointment-form-section form textarea{
+		width: 100%;
+		margin: 0px;
+	}
+	.apointment-footer button{
+		width: 140px;
+		font-size: 14px;
+	}
+	.testimonial-section{
+		height: 650px;
+	}
+	.inner-testimonial-section {
+   			 width: 95%;
+	}
+	.testimonial-left{
+		margin-bottom: 40px;
+	}
+	.testimonial-left, .testimonial-right{
+    	width: 100%;
+    }
+    .dentist-section{
+    	height:1600px;
+    }
+    .dentist-pic{
+    	width: 100%;
+    	margin: 0px;
+    	margin-bottom: 50px;
+    }
+   	.footer-section{
+		height: 1260px;
+	}
+	.inner-footer-section{
+		width: 100%;
+		top: 20px;
+		left:0;
+		transform: none;
+	}
+	.left-footer{
+		width: 100%;
+		margin:0px;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+	.middle-footer{
+		width: 100%;
+		margin:0px;
+		margin-bottom: 50px;
+	}
+	.quick-link{
+		width: 100%;
+	}
+	.right-footer{
+		width: 100%;
+		padding: 20px;
+		margin:0px;
+		margin-bottom: 50px;
+	}
+	.copyright-section{
+		padding: 20px;
+	}
+	.right-newsletter-form input {
+    	width: 80%;
+	}
+	.right-newsletter-form button {
+    	width: 13%;
+	}
+	.middle-nav-list{
+		top: 110px;
+	}
+}
+@media (max-width: 486px) and (min-width: 452px){
+	.dentist-section {
+  		  height: 1500px;
+	}
+}
+@media (max-width: 451px) and (min-width: 400px){
+	.footer-section{
+		height: 1330px;
+	}
+	.dentist-section {
+  		  height: 1430px;
+	}
+	.welcome-middle-content {
+    	width: 400px;
+    	padding-top: 80px;
+	}
+	.welcome-middle-content-text h2 {
+    	font-size: 20px;
+   	 	line-height: 31px;
+	}
+	.welcome-middle-content-paragraph p {
+   		 font-size: 14px;
+	}
+}
+@media (max-width: 399px) and (min-width: 375px){
+	.right-nav-btn {
+  	  padding-left: 74px;
+	}
+	.footer-section{
+		height: 1330px;
+	}
+	.dentist-section {
+  		  height: 1300px;
+	}
+	.welcome-middle-content {
+    	width: 370px;
+    	padding-top: 80px;
+	}
+	.welcome-middle-content-text h2 {
+    	font-size: 19px;
+   	 	line-height: 31px;
+	}
+	.welcome-middle-content-paragraph p {
+   		 font-size: 13px;
+	}
+	.dento-cta-area {
+    	height: 1204px;
+    	padding-top: 17rem;
+	}
+	.section-pricing {
+   		 height: 965px;
+	}
+	.left-about-pic{
+   		 height: 60%;
+	}
+}
+@media (max-width: 374px) and (min-width: 320px){
+	.right-nav-btn {
+  	  padding-left: 67px;
+	}
+	.footer-section{
+		height: 1300px;
+	}
+	.dentist-section {
+  		  height: 1205px;
+	}
+	.welcome-area {
+   		 height: 423px;
+	}
+	.welcome-middle-content {
+    	width: 328px;
+    	padding-top: 76px;
+	}
+	.welcome-middle-content-text{
+   		 height: 72px;
+	}
+	.welcome-middle-content-text h2 {
+    	font-size: 13px;
+   	 	line-height: 30px;
+	}
+	.welcome-middle-content-paragraph{
+		height: 84px;
+	} 
+	.welcome-middle-content-paragraph p {
+   		 font-size: 11px;
+	}
+	.welcome-middle-content-btn button {
+   		 margin-top: 24px;
+   		 width: 120px;
+   		 height: 44px;
+	}
+	.left-about-pic{
+   		 height: 60%;
+	}
+	.dento-cta-area {
+    	height: 1204px;
+    	padding-top: 17rem;
+	}
+	.section-pricing {
+   		 height: 1004px;
+	}
+	.right-nav-btn button {
+   		 height: 36px;
+   		 width: 115px;
+	}
+}

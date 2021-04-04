@@ -1,0 +1,825 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.main-container{
+	max-width: 1366px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.sec-header{
+	width: 100%;
+	height: 140px;
+	position: sticky;
+	top: -50px;
+	background-color: #fff;
+	z-index: 9;
+}
+.top-header-area, .main-header-area{
+	width: 100%;
+	height: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.top-header-area{
+	background-color:#f4f4f4;
+	position: relative;
+	z-index: 1;
+}
+.left-sec, .right-sec{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-left: 25px;
+	padding-top: 16px;
+	position: relative;
+}
+.left-sec a{
+	text-decoration: none;
+	padding-right: 70px;
+	color:grey;
+}
+.left-sec img{
+	width: 20px;
+	position: absolute;
+	top: 15px;
+}
+.img1{
+	left:6px;
+}
+.img2{
+	left: 335px;
+}
+.right-sec{
+	padding-left: 430px;
+	padding-top: 15px;
+}
+.right-sec img{
+	width: 20px;
+	margin-right: 15px;
+}
+.main-header-area{
+	height: 90px;
+}
+.left-nav-logo-area, .middle-nav-list, .right-nav-btn{
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-top: 25px;
+	padding-left: 19px;
+}
+.middle-nav-list{
+	width: 60%;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+.middle-nav-list ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 28px;
+}
+.middle-nav-list ul li a{
+	font-size: 17px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.middle-nav-list ul li a:hover{
+	color: #00aeef;
+}
+.right-nav-btn{
+	width: 20%;
+	padding-top: 22px;
+	padding-left: 27px;
+}
+.right-nav-btn button{
+	width: 160px;
+	height: 45px;
+	background-color: #00aeef;
+	border:none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.right-nav-btn button a{
+	color:#fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.right-nav-btn button:hover a{
+	color: #00aeef;
+}
+.right-nav-btn button:hover{
+	background-color: #fff;
+	border:2px solid #00aeef;
+	transition-duration: 0.5s;
+}
+
+/*Here start css of welcome area section*/
+.welcome-area{
+	position: relative;
+	width: 100%;
+	height: 750px;
+	background-image: url('images/header1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+}
+
+/*some common css*/
+.welcome-area-copy, .dento-service-sec-copy, .apointment-section-copy, .dentist-name, .testimonial-section-copy, .footer-section-copy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background: linear-gradient(to left, blue, black);
+}
+.welcome-middle-content{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 1100px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+}
+.welcome-middle-content-text, .welcome-middle-content-paragraph{
+	width: 100%;
+	height: 170px;
+	float: left;
+}
+.welcome-middle-content-text h2{
+	font-size: 55px;
+    color: #fffffff2;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 75px;
+}
+.welcome-middle-content-paragraph{
+	height: 120px;
+}
+.welcome-middle-content-paragraph p{
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	font-size: 20px;
+    color: #fffff2;
+    line-height: 40px;
+}
+.welcome-middle-content-btn{
+	width: 100%;
+	height: 110px;
+	float: left;
+	text-align: center;
+}
+.welcome-middle-content-btn button{
+	width: 180px;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	outline: none;
+	cursor: pointer;
+}
+.btn1{
+	background-color: #00aeef;
+	color: #ffff;
+	border:none;
+}
+.btn1:hover{
+	background-color: inherit;
+	border:2px solid #00aeef;
+	color: #00aeef;
+	transition-duration: 0.5s;
+}
+.btn2{
+	background-color: inherit;
+	border:2px solid #00aeef;
+	color: #00aeef;
+}
+.responsive-navbar img {
+    position: absolute;
+    width: 35px;
+    height: 53px;
+    top: 73px;
+    right: 107px;
+    display: none;
+}
+
+/*Here start css of about section*/
+.about-section{
+	width: 85%;
+	height: 680px;
+	margin: auto;
+	position: relative;
+}
+.left-about-pic, .right-about-text{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.left-about-pic img{
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.right-about-text{
+	padding-left: 40px;
+}
+.section-heading{
+	position: relative;
+	margin-top: 90px;
+}
+.section-heading h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.section-heading .line {
+    width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+}
+.right-about-text p {
+	margin-top: 50px;
+    line-height: 1.9;
+    color: #707070;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+/*Here start css of skills box*/
+.skills-box{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.skills{
+    width: 100%;
+    height: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+.skills-level{
+    background: rgb(0, 174, 239);
+    transition: width 1s ease-in-out 0s;
+    height: 100%;
+    z-index: 9;
+    position: relative;
+    display: block;
+}
+.skills-box h4{
+	float: right;
+    font-size: 20px;
+    color: #333333;
+	font-weight: bold;
+	position: relative;
+	top: -34px;
+	transition: width 1s ease-in-out 0s
+}
+.skills-box h2{
+	font-size: 18px;
+    display: block;
+    color: #333333;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+/*Here start css of dento cta area*/
+.dento-cta-area{
+	position: relative;
+	width: 85%;
+	height: 260px;
+	margin:auto;
+}
+.cta-area{
+	position: relative;
+	width: calc(25% - 40px);
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+.cta-area img{
+	width: 60px;
+}
+.cta-area h2{
+	font-size: 38px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cta-area h2, .cta-area h3{
+    color: #333333;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*Here start css of dento service section*/
+.dento-service-sec{
+	width: 100%;
+	height: 600px;
+	background-image: url(images/service.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 100px;
+	 background-attachment: fixed;
+}
+.inner-dento-service-sec{
+	position: relative;
+	width: 85%;
+	margin: auto;
+	height: 100%;
+}
+.left-dento-service, .right-dento-service{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-top:120px;
+	padding-bottom: 70px;
+}
+.service-icon-sec{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.service-heading{
+	width: 100%;
+	height: 30%;
+}
+.service-icon{
+	width: 33.3%;
+	height: 35%;
+	float: left;
+}
+.service-line{
+    width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+}
+.service-icon img {
+    display: block;
+    margin-bottom: 15px;
+    max-height: 35px;
+}
+.service-heading h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.service-icon h6, .service-heading h2 {
+	color: #ffffff;
+    text-transform: capitalize;sss
+}
+.service-icon h6{
+	font-weight: 400;
+    font-size: 14px;
+}
+.right-dento-service img{
+	width: 100%;
+	height: 90%;
+	background-size: cover;
+}
+
+/*Here css of pricing section */
+.section-pricing{
+	width: 85%;
+	position: relative;
+	margin:auto;
+	height: 950px;
+}
+
+/*common css given section*/
+.pricing-heading, .apointment-heading, .dentist-heading{
+	width: 100%;
+	height: 130px;
+}
+
+/*common stye given section*/
+.pricing-heading h2,  .apointment-heading h2, .dentist-heading h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*common stye given section*/
+.pricing-line, .apointment-line, .dentist-line{
+	width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+    margin: auto;
+}
+.pricing-content{
+	width: 100%;
+}
+
+/*common stye given section*/
+.pricing-footer, .apointment-footer{
+	width: 100%;
+	height:100px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/*common stye given section*/
+.pricing-footer button, .apointment-footer button{
+	width: 170px;
+	height: 50px;
+	background-color: #00aeef;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*common stye given section*/
+.pricing-footer button:hover, .apointment-footer button:hover{
+	border:2px solid #00aeef;
+	color: #00aeef;
+	background-color: unset;
+	transition-duration: .5s;
+}
+.table{
+	width: 100%;
+	background-color: transparent;
+}
+.table thead tr > th, .table tbody tr > th, .table tbody tr > td {
+    background-color: #00aeef;
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    font-weight: 600;  
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+}
+.table thead tr > th{
+	text-transform: capitalize;
+}
+.table tbody tr > th, .table tbody tr > td {
+    background-color: #f4f4f4;
+    color: #707070;
+    font-size: 14px;
+}
+th {
+    text-align: inherit;
+}
+
+/*Here start css of apointment section*/
+.apointment-section{
+	position: relative;
+	width: 100%;
+	background-image: url(images/form.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 90px;
+     background-attachment: fixed;
+ }
+ .inner-apointment-section{
+ 	width: 85%;
+ 	position: relative;
+ 	margin: 0 auto;
+ 	height: 100%;
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+ }
+ .apointment-heading h2{
+ 	color: #fff;
+ }
+.apointment-form-section{
+	width: 100%;
+}
+input, select, textarea{
+    width: calc(49% - 30px);
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0 30px;
+    font-style: italic;
+    margin-bottom: 40px;
+    outline: none;
+    margin:15px;
+}
+option{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #333333;
+}
+textarea{
+	width: 96%;
+	padding: 30px;
+    height: 120px;
+}
+.apointment-footer button{
+	color: #fff;
+}
+
+/*Here start css of testimonial section*/
+.testimonial-section{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-image: url(images/testimonial2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 90px;
+	 background-attachment: fixed;
+}
+.inner-testimonial-section{
+	width: 80%;
+	position: relative;
+	margin:auto;
+	padding-top: 83px;
+	padding-bottom: 235px;
+}
+.testimonial-left{
+	width: 20%;
+	float: left;
+	position:relative; 
+}
+.testimonial-left img{
+	border-radius: 50%;
+}
+.testimonial-right{
+	width: 80%;
+	float: left;
+	padding-top: 5px;
+	position: relative;
+}
+.testimonial-right h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.testimonial-right h6{
+	font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.testimonial-right p, .left-footer p, .right-footer p{
+	  color: #ffffff;
+	  font-weight: 500;
+	  text-transform: capitalize;
+	  font-size: 16px;
+}
+
+/*Here start css of dentist section*/
+.dentist-section{
+	position: relative;
+	width: 85%;
+	height: 600px;
+	margin: auto;
+}
+.dentist-profile{
+	width: 100%;
+	position: relative;
+}
+.dentist-pic{
+	width: calc(33.3% - 20px);
+	position: relative;
+	margin: 0 10px 0 10px;
+	float: left;
+	z-index: 1;
+    background-color: #f4f4f4;
+}
+.dentist-pic img{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+.dentist-content{
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	bottom: 76px;
+}
+.dentist-social-content, .dentist-name{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 60px;
+}
+.dentist-social-content{
+	padding: 0px 10px;
+}
+.dentist-social-content a img {
+    width: 50px;
+    background-color: beige;
+    padding: 15px;
+    border-radius: 100%;
+    visibility: hidden;
+}
+.dentist-section:hover .dentist-social-content a img{
+	visibility: visible;
+	transition-duration: smooth;
+}
+.dentist-name h5{
+	color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.dentist-name p{
+	color: #ffffff;
+    margin-bottom: 0;
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+}
+
+/*Here start css of footer section*/
+.footer-section{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-image: url(images/footer.jpg);
+	background-size: cover;
+	 background-attachment: fixed;
+}
+.inner-footer-section{
+	width: 85%;
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.left-footer{
+	width: calc(32% - 20px);
+	z-index: 1;
+	margin: 10px;
+	float: left;
+	padding-top: 17px;
+}
+.left-footer img{
+	margin-bottom: 15px;
+}
+.left-footer-content{
+	width: 100%;
+	height: 70px;
+	position: relative;
+	padding-top: 15px;
+}
+.left-footer-content img{
+	width: 17px;
+	position: absolute;
+	margin-right: 30px;
+}
+.left-footer-content a {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 14px;
+}
+.left-footer-content a span{
+	margin-left: 25px;
+	color:#f1f1f1;
+}
+.footer-section-copy{
+	z-index: 0;
+}
+.middle-footer{
+	width:calc(25% - 20px);
+	float: left;
+	margin:10px;
+	z-index: 1;
+	padding: 20px;
+	margin-bottom: 120px;
+}
+.left-footer p, .right-footer p{
+	line-height: 1.7;
+    font-weight: 400;
+    color: #f1f1f1;
+    text-transform: unset;
+    font-size: 18px;
+}
+.right-footer p{
+	line-height: 1.5;
+}
+.middle-footer h2, .right-footer h2{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+} 
+.quick-link{
+	width: 18%;
+}
+.middle-footer ul li{
+	list-style: none;
+	color: #f1f1f1;
+	margin-top: 20px;
+}
+.ryt{
+	float: right;
+}
+.middle-footer a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+.right-footer{
+	width: calc(23% - 58px);
+	z-index: 1;
+	margin: 29px;
+	float: left;
+}
+.right-footer p{
+	color:  #f1f1f1;
+}
+.right-newsletter-form{
+	padding-top: 30px;
+	padding-right: 10px;
+}
+.right-newsletter-form input{
+	width: 100%;
+	background-color: #fff;
+	height: 40px;
+	margin: 0px;
+	color: #000000;
+}
+.right-newsletter-form button{
+	position: absolute;
+	width: 5%;
+	height: 40px;
+	border:none;
+	background-color: #00aeef;
+}
+.right-newsletter-form button:hover{
+	background-color: #000000;
+}
+.right-newsletter-form img{
+	width: 20px;
+}
+.copyright-section{
+	width: 100%;
+	margin: auto;
+	float: left;
+	z-index: 1;
+	position: relative;
+	bottom: 0px;
+}
+.copyright-section p{
+	color: #ffffffc7;
+	text-align: center;
+}
+
+/*Here css of down btn*/
+.down-btn{
+	width: 45px;
+	height: 45px;
+	background-color: #00aeef;
+	position:fixed;
+	bottom: 30px;
+	right: 10px;
+	padding-top: 8px;
+	padding-left: 9px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}
+.down-btn:hover{
+	background-color: #000000;
+}
+.down-btn img{
+	width: 25px;
+}
